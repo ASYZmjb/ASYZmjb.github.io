@@ -1,0 +1,548 @@
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Swe V1</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		
+		<link href="ajax/libs/mui/3.4.0/css/mui.min.css" rel="stylesheet">
+		<link href="ajax/libs/Swiper/5.4.5/css/swiper.min.css" rel="stylesheet">
+		<link href="ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="style/css/app.css">
+		<style>
+		</style>
+		<script>
+			var user = [
+				{'name':'あわのたけし(淡野武)','img':'https://img2.baidu.com/it/u=3234551259,143259198&fm=26&fmt=auto'},
+				{'name':'一条小夏丝','img':'https://img2.baidu.com/it/u=1806561504,3788501811&fm=26&fmt=auto'},
+				{'name':'Nicole Gallup','img':'https://img1.baidu.com/it/u=2959190251,2007085432&fm=26&fmt=auto'},
+				{'name':'是你的桂霞呀','img':'https://img2.baidu.com/it/u=1555140904,1405856402&fm=26&fmt=auto'},
+				{'name':'忧郁的伽蓝','img':'https://img1.baidu.com/it/u=1303433427,3117129017&fm=26&fmt=auto'},
+			]
+			var classData = [
+			    { 'name':'幼女', 'id': '1', 'count': random(1000,3000) },
+			    { 'name':'另类', 'id': '9', 'count': random(1000,3000) },
+				//{ 'name':'SM', 'id': '7', 'count': random(1000,3000) },
+				{ 'name':'口交', 'id': '11', 'count': random(1000,3000) },
+				{ 'name':'学生', 'id': '10', 'count': random(1000,3000) },
+				{ 'name':'丝袜', 'id': '6', 'count': random(1000,3000) }
+			];
+			function random(min, max) {
+			return Math.floor(Math.random() * (max - min)) + min;
+			}
+			
+		    window.classID = 1;
+		</script>
+	</head>
+    
+	<body>
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item mui-active" href="javascript:">
+				<span class="mui-icon mui-icon-videocam"></span>
+			</a>
+			<a class="mui-tab-item" href="javascript:">
+				<span class="mui-icon mui-icon-search"></span>
+			</a>
+			<a class="mui-tab-item" href="javascript:">
+				<span class="mui-icon mui-icon-contact"></span>
+			</a>
+		</nav>
+		<div class="mui-content">
+			<div id="tabbar-home" class="mui-control-content nav-content mui-active" style="overflow:hidden;">
+				<div class="step-one backimg step-msg">
+					<div class="main" style="padding:0 30px; width:80%; background:rgb(35, 35, 35);">
+						<div class="child">
+							<div class="img" style="background-image:url('iQwLNLtvxK2SOw9URz9ZgQ/33b79820-ac99-4689-6a2c-70614c6bbd00/public.jpg');"></div>
+							<div class="msg">
+							    <p>为了防止视频泄漏，请前往APP观看完整版</p>
+								<p><span style="font-size: 18px;"><strong>1.&nbsp;</strong>本站包含著 <span style="font-size: 18px; color: rgb(192, 0, 0);">3歲-16歲之間的未成年，強奸，人與動物</span> 等類型視頻 總共有 14976 部</span></p>
+								<p><span style="font-size: 18px;"><strong>2.&nbsp;</strong>開通會員即可獲得APP下載鏈接</span></p><p style="text-align: center;"><span style="text-align: center; font-size: 16px; color: rgb(127, 127, 127);">開通會員獲得永久域名</span></p>
+								<p style="text-align: center;"><span style="color: rgb(165, 165, 165);">當前域名有效時間</span></p>
+							</div>
+							<div id="show"></div>
+							<button class="step-one-click" onclick="javascript:$('.step-msg').hide()">知道了</button>
+						</div>
+					</div>
+				</div>
+				<div class="step-one backimg step-open">
+					<div class="main" style="padding:0 30px; width:80%; background:rgb(35, 35, 35);">
+						<div class="child">
+							<div class="img" style="background-image:url('iQwLNLtvxK2SOw9URz9ZgQ/33b79820-ac99-4689-6a2c-70614c6bbd00/public.jpg');"></div>
+							<div class="msg">
+							    <p>为了防止视频泄漏，请前往APP观看完整版</p>
+								<p><span style="font-size: 18px;"><strong>1.&nbsp;</strong>APP包含著 <span style="font-size: 18px; color: rgb(192, 0, 0);">3歲-16歲之間的未成年，強奸，人與動物</span> 等類型視頻 總共有 14976 部</span></p>
+								<p><span style="font-size: 18px;"><strong>2.&nbsp;</strong>開通會員即獲得邀请码下载APP</span></p>
+								<p style="text-align: center;"><span style="color: rgb(165, 165, 165);">當前域名有效時間</span></p>
+							</div>
+							<div id="show"></div>
+							<button class="step-one-click" onclick="javascript:window.location.href='./member.html'">立即前往</button>
+						</div>
+					</div>
+				</div>
+				<header class="mui-bar main-bar">
+					<!-- Swiper -->
+					<div class="swiper mySwiperClass">
+						<div class="swiper-wrapper"></div>
+					</div>
+
+				</header>
+				
+				<div class="video" onclick="videoSelf(this)">
+					<video id="audio" muted="" loop="" webkit-playsinline="true" playsinline="true" x5-playsinline="true"></video>
+				</div>
+				<div class="home-swiper">
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper"></div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="tabbar-list" class="mui-control-content nav-content" style="padding:60px 0 0;">
+				<input type="hidden" name="list_switch" value="0">
+				<header class="mui-bar mui-bar-nav" style="z-index: 99999;">
+					<!-- Swiper -->
+					<div class="swiper mySwiperListClass">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide slide-on" data="-1">推荐</div>
+						</div>
+					</div>
+				</header>
+				<div class="list-main" style="padding-bottom:60px;">
+					<div id="video-main" class="mui-control-content mui-active">
+						<div class="swiper-container top-slide"> <div class="swiper-wrapper"></div></div>
+						<div class="class-main"></div>
+					</div>
+					<div id="video-list" class="mui-control-content"></div>
+				</div>
+			</div>
+			<div id="tabbar-user" class="mui-control-content nav-content">
+
+				<div class="user-info" style="background:url('style/img/back2.jpg') no-repeat center / 100% 100%;" onclick="window.location.href='./member.html'">
+					<div class="btn"><span class="fa fa-diamond"></span> 开通会员</div>
+					<div class="user-img"></div>
+					<div class="mui-media-body">
+						<font color="#fff">访客</font>
+						<p class="mui-ellipsis">当前还不是会员</p>
+					</div>
+					<ul>
+						<li>
+							<span>0 / 6</span>
+							<p>观影次数</p>
+						</li>
+						<li>
+							<span>0</span>
+							<p>我的收藏</p>
+						</li>
+						<li>
+							<span>0</span>
+							<p>缓存下载</p>
+						</li>
+					</ul>
+				</div>
+
+				<div class="html-list" style="margin:10px 0 25px; background: none;">
+					<div class="list-title">
+						<div class="name"><span class="mui-icon mui-icon-videocam"></span>观影记录</div>
+					</div>
+					<div class="swiper-container user-slide"> <div class="swiper-wrapper"></div></div>
+				</div>
+				
+				<ul class="mui-table-view user-list" onclick="window.location.href='./member.html'">
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							<i class="fa fa-ticket"></i> 兑换码
+						</a>
+					</li>
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							<i class="fa fa-reorder"></i> 购买记录
+						</a>
+					</li>
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							<i class="fa fa-phone"></i> 联系客服
+						</a>
+					</li>
+					<li class="mui-table-view-cell">
+						<a class="mui-navigate-right">
+							<i class="fa fa-users"></i> 关于我们
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	
+	<script src="hls.js/latest/hls.min.js"></script>
+	<script src="jquery/3.3.1/jquery.min.js"></script>
+	<script src="ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+	<script src="ajax/libs/mui/3.4.0/js/mui.min.js"></script>
+	<script src="ajax/libs/layer/3.5.1/mobile/layer.min.js"></script>
+	
+	<script src="style/js/common.js"></script>
+	<script src="style/js/video.js"></script>
+	
+	
+	<script>
+
+		//首页标签
+		var classHtml = '';
+		$.each(classData,function(key,row){
+			if(key == 0)
+			classHtml+= '<div class="swiper-slide slide-on" data="'+row.id+'">推荐</div>';
+			else
+			classHtml+= '<div class="swiper-slide" data="'+row.id+'">'+row.name+'</div>';
+		});
+		var swiperClass = new Swiper(".mySwiperClass", { slidesPerView: 4.5, freeMode: true });
+		swiperClass.appendSlide(classHtml);
+
+		//列表标签
+		var listHtmlClass = '';
+		$.each(classData,function(key,row){
+			listHtmlClass+= '<div class="swiper-slide" data="'+key+'">'+row.name+'</div>';
+		});
+		var swiperListClass = new Swiper(".mySwiperListClass", { slidesPerView: 4.5, freeMode: true });
+		swiperListClass.appendSlide(listHtmlClass);
+
+		//观影记录
+		var historySwiper = new Swiper(".user-slide", { slidesPerView: 2.5, spaceBetween: 15, freeMode: true });
+		
+
+	    var video = document.getElementById('audio'); // 获取 video 标签
+		var hls = new Hls(); // 实例化 Hls 对象
+
+
+		window.homeSwiper = new Swiper(".mySwiper", {
+			autoHeight: true,
+			loop:false,
+			direction: "vertical",
+			on: {
+				slidePrevTransitionEnd: function(self){
+					$(".mySwiper .swiper-slide").find(".video").attr("data",0);
+					$(".mySwiper .swiper-slide").find(".video").find(".play_btn").removeClass("on");
+					var videoInfo = videoApiData[classID][this.activeIndex];
+					loadVideo(videoInfo,this.activeIndex);
+					$(".mySwiper .swiper-slide-next").css("background",'#000 url('+videoApiData[classID][this.activeIndex+1].video_cdnimg+') no-repeat center / 100% auto');
+					$(".mySwiper .swiper-slide-prev").css("background",'#000 url('+videoApiData[classID][this.activeIndex-1].video_cdnimg+') no-repeat center / 100% auto');
+				},
+				slideNextTransitionEnd: function(self){
+
+					if(this.activeIndex == 5)
+					{
+						$(".step-msg").addClass("on");
+						$("#tabbar-home").css("overflow",'hidden');
+					}
+					var videoInfo = videoApiData[classID][this.activeIndex];
+					loadVideo(videoInfo,this.activeIndex);
+					$(".mySwiper .swiper-slide-prev").css("background",'#000 url('+videoApiData[classID][this.activeIndex-1].video_cdnimg+') no-repeat center / 100% auto');
+					$(".mySwiper .swiper-slide-next").css("background",'#000 url('+videoApiData[classID][this.activeIndex+1].video_cdnimg+') no-repeat center / 100% auto');
+				},
+			},
+		});
+
+		$(function(){
+
+			homeSwiper.update();
+
+			$(".mySwiperClass").find(".swiper-slide").click(function(){
+				$(this).addClass("slide-on").siblings(".swiper-slide").removeClass("slide-on");
+				if($(this).index() >= 2)
+				swiperClass.slideNext();
+				window.classID = $(this).attr("data");
+				videoList(classID);
+				$(".mySwiper .swiper-slide").find(".video").attr("data",0);
+				$(".mySwiper .swiper-slide").find(".video").find(".play_btn").removeClass("on");
+			});
+
+			$(".mySwiperListClass").find(".swiper-slide").click(function(){
+				$(this).addClass("slide-on").siblings(".swiper-slide").removeClass("slide-on");
+				if($(this).index() >= 2)
+				swiperListClass.slideNext();
+				listArr($(this).attr("data"));
+			});
+
+			var videoInfo = videoApiData[classID][0];
+			setTimeout(function(){
+			if(Hls.isSupported()){
+                var hls = new Hls();//实例化 Hls 对象
+        			hls.loadSource(videoInfo.video_m3u8); // 传入路径
+        			hls.attachMedia(video);
+        		}else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                        video.src = videoInfo.video_m3u8;
+                }
+                layer.closeAll();
+			},1000)
+			
+			window.swiperTop = new Swiper('.top-slide', {
+			slidesPerView: 1.2,
+			loop:true,
+			spaceBetween: 15,
+			centeredSlides: true,
+			autoplay: {
+			delay: 5000,
+			stopOnLastSlide: false,
+			disableOnInteraction: false,
+			},
+			});
+		    
+			$(".mui-bar .mui-tab-item").click(function(){
+				
+				$(".mui-content .nav-content").eq($(this).index()).addClass("mui-active").siblings(".nav-content").removeClass("mui-active");
+				if($(this).index() == 0)
+				{
+				    swiperClass.update();
+					homeSwiper.update();
+					$(".mui-content").css("background","#000");
+				}
+				else if($(this).index() == 1)
+				{
+					swiperListClass.update();
+					listArr(-1);
+					$(".mui-content").css("background","#efeff4");
+				}
+				else if($(this).index() == 2)
+				{
+					$(".mui-content").css("background","#efeff4");
+
+					var historyHtml = '';
+					$.each(videoApiData[9],function(key,row){
+						historyHtml+= '<div onclick="infoUrl(9,'+row.video_id+')" class="swiper-slide"><img src="'+row.video_cdnimg+'"></div>';
+					});
+					historySwiper.appendSlide(historyHtml);
+					historySwiper.update();
+				}
+			})
+
+			$(".step-one-close").click(function(){
+				layer.closeAll();
+				$(this).parent(".child").parent(".main").parent(".step-one").removeClass("on");
+			});
+
+			TimeDown("show", 3600000);
+
+			videoList(classID);
+
+			$("#segmentedControl").find("a").click(function(){
+				var type = $(this).attr("data");
+				videoList(type);
+			})
+
+		});
+
+	function loadVideo(videoInfo,index = 0)
+	{
+		layer.open({type: 2,shade: false});
+		$("#audio").attr("poster",videoInfo.video_cdnimg)
+		if(index > 4)
+		$("#audio").addClass('dim');
+		else
+		$("#audio").removeClass('dim');
+		var video = document.getElementById('audio'); // 获取 video 标签
+		if(Hls.isSupported()){
+        var hls = new Hls();//实例化 Hls 对象
+			hls.loadSource(videoInfo.video_m3u8); // 传入路径
+			hls.attachMedia(video);
+			hls.on(Hls.Events.MANIFEST_PARSED,function() {
+				video.play();
+                video.muted=false;
+				$(".mySwiper").find(".swiper-slide").eq(index).css("background","none");
+			});
+		}else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = videoInfo.video_m3u8;
+                video.addEventListener('loadedmetadata',function() {
+                    video.play();
+                    video.muted=false;
+					$(".mySwiper").find(".swiper-slide").eq(index).css("background","none");
+                    // $('#video').trigger('play');
+                });
+        }
+        
+		video.addEventListener("timeupdate",function() {
+		var timeDisplay;
+		timeDisplay = video.currentTime;
+		if(timeDisplay > 0)
+		{
+			layer.closeAll();
+			homeSwiper.update();
+		}
+		},false)
+		
+	}
+
+	function videoSelf(self)
+	{
+		var data = $(self).attr("data");
+		var video = document.getElementById('audio');
+		if(data == 0)
+		{
+		    layer.closeAll();
+			video.pause();
+			$(self).attr("data",1);
+			$(self).find(".play_btn").addClass("on");
+		}
+		else
+		{
+			video.play();
+			$(self).attr("data",0);
+			$(self).find(".play_btn").removeClass("on");
+		}
+	}
+
+	function videoList(type = 1)
+	{
+		var eachData = videoApiData[type];
+		var homeSwiper = window.homeSwiper;
+		var videoHtml = '';
+		$.each(eachData,function(key,obj){
+			if(key < 5)
+			{
+				if(key >= 1)
+				videoHtml+= '<div style="background:#000 url('+obj.video_cdnimg+') no-repeat center / 100% auto;" class="swiper-slide free">';
+				else
+				videoHtml+= '<div class="swiper-slide free">';
+			}
+			else
+			videoHtml+= '<div class="swiper-slide">';
+			if(key == 0)
+			{
+				videoHtml+= '<div class="video" data="1" onclick="videoSelf(this)">';
+				videoHtml+= '<div class="play_btn on"><span class="fa fa-play"></span></div>';
+			}
+			else
+			{
+				videoHtml+= '<div class="video" data="0" onclick="videoSelf(this)">';
+				videoHtml+= '<div class="play_btn"><span class="fa fa-play"></span></div>';
+			}
+			videoHtml+= '</div>';
+			if(key < 5)
+			{
+				var userInfo = user[random(0,4)];
+				videoHtml+= '<div class="video-user">';
+				videoHtml+= '<div class="user-mian"><img src="'+userInfo.img+'"><h4>'+userInfo.name+'</h4></div>';
+				if(obj.video_name)
+				{
+					var label = obj.video_tag.split(",");
+					videoHtml+= '<p>';
+					$.each(label,function(tagKey,tagObj){ 
+						if(tagObj)
+						videoHtml+= '<span>#'+tagObj+'</span>'; 
+					});
+					videoHtml+= obj.video_name+' </p>';
+				}
+				else
+				videoHtml+= '<p>“ 这家伙很懒，什么也没说 ”</p>';
+				videoHtml+= '</div>';
+				videoHtml+= '<div class="video-desc">';
+				videoHtml+= '<p><span onclick="save(this)" class="fa fa-thumbs-up"></span></p><p class="text">'+obj.video_view+'k</p>';
+				videoHtml+= '<p><span onclick="save(this)" class="fa fa-star"></span></p><p class="text">'+obj.video_like+'k</p>';
+				videoHtml+= '</div>';
+			}
+			else
+			{
+				videoHtml+= '<div class="slide-desc">';
+				//videoHtml+= '<div class="title">'+obj.video_name+'</div>';
+				videoHtml+= '<div class="desc">';
+				videoHtml+= '<button class="slide-btn" onclick="window.location.href=\'./member.html\'">2546余部视频等待解锁</button>';
+				videoHtml+= '</div>';
+				videoHtml+= '</div>';
+			}
+			videoHtml+= '</div>';
+		});
+		homeSwiper.removeAllSlides();
+		homeSwiper.update();
+		homeSwiper.appendSlide(videoHtml);
+		homeSwiper.update();
+		
+		var videoInfo = videoApiData[type][0];
+		loadVideo(videoInfo,0)
+	}
+	function save(self)
+	{
+		$(self).toggleClass("on");
+	}
+
+	function listArr(type)
+	{
+		var loading = layer.open({type: 2});
+		if(type == -1)
+		{
+			$("#video-main").addClass("mui-active").siblings("#video-list").removeClass("mui-active");
+			var divCenter = "";
+			$.each(classData,function(key,row){
+				var videoInfo = videoApiData[row.id][random(0,9)];
+				divCenter += '<div class="swiper-slide" onclick="infoUrl('+row.id+','+videoInfo.video_id+')">';
+				divCenter += '<div class="slide-main">';
+				if(row.free == 1)
+				divCenter += '<div class="video free" style="background-image:url('+videoInfo.video_cdnimg+');">';
+				else
+				{
+					divCenter += '<span class="vip">VIP</span>';
+					divCenter += '<div class="video" style="background-image:url('+videoInfo.video_cdnimg+');">';
+				}
+				divCenter += '</div>';
+				divCenter += '<div class="desc">';
+				if(videoInfo.name)
+				divCenter += '<div class="title">'+videoInfo.video_name+'</div>';
+				divCenter += '<div class="btn">';
+				divCenter += '<p><span class="mui-icon mui-icon-star"></span> '+videoInfo.video_like+'%</p>';
+				divCenter += '<p><button onclick="infoUrl('+row.id+','+videoInfo.video_id+')">观看完整视频</button></p>';
+				divCenter += '<p><span class="mui-icon mui-icon-eye"></span> '+videoInfo.video_view+'k</p>';
+				divCenter += '</div>';
+				divCenter += '</div>';
+				divCenter += '</div>';
+				divCenter += '</div>';
+			});
+			swiperTop.appendSlide(divCenter);
+			swiperTop.update();
+			
+			var videoCenter = '';
+			$.each(classData,function(key,row){
+				videoCenter += '<div class="html-list part-list">';
+				videoCenter += '<div class="list-title"><div class="name"><span class="mui-icon mui-icon-videocam"></span> '+row.name+'</div></div>';
+				videoCenter += '<ul class="video-list yn-list">';
+				var videoList = videoApiData[row.id];	
+				$.each(videoList,function(obj,res){
+				if(obj < 6){
+				videoCenter+= '<li onclick="infoUrl('+row.id+','+res.video_id+')"><span class="vip">VIP</span>';
+				videoCenter+= '<div class="img" style="background-image:url('+res.video_cdnimg+');"></div><p style="height:5px;"></p></li>';
+				}
+				})
+				videoCenter += '</ul>';
+				videoCenter += '<div class="more">多达 '+row.count+' 余部视频等待解锁</div>';
+				videoCenter += '</div>';
+			});
+			$("#video-main .class-main").html(videoCenter);
+			
+		}
+		else
+		{
+			$("#video-list").addClass("mui-active").siblings("#video-main").removeClass("mui-active");
+			var classInfo = classData[type];
+			var videoList = videoApiData[classInfo.id];
+			var videoCenter = '';
+				videoCenter += '<div class="html-list part-list">';
+				videoCenter += '<ul class="video-list yn-list">';
+				$.each(videoList,function(obj,res){
+				videoCenter+= '<li onclick="infoUrl('+classInfo.id+','+res.video_id+')"><span class="vip">VIP</span>';
+				videoCenter+= '<div class="img" style="background-image:url('+res.video_cdnimg+');"></div><p style="height:5px;"></p></li>';
+				})
+				videoCenter += '</ul>';
+				videoCenter += '<div class="more">多达 '+classInfo.count+' 余部视频等待解锁</div>';
+				videoCenter += '</div>';
+			$("#video-list").html(videoCenter);
+		}
+		layer.closeAll();
+	}
+	</script>
+	<script id="LA_COLLECT" src="js-sdk-pro.min.js"></script>
+    <script>LA.init({id: "JX6bzDJDFgVqMd5j",ck: "JX6bzDJDFgVqMd5j"})</script>
+    
+    
+    <script type="text/javascript" src="z_stat-1280704497_1280704497.js"></script>
+</body>
+</html>
