@@ -1,0 +1,156 @@
+/***独立页样式***/
+
+/**领导介绍左**/
+.left_a{background:url(http://www.asyzonline.com/skin/default/core/css/about_left.gif) repeat-x left bottom; margin-top:5px; padding:3px}
+.left_a1{background:url(http://www.asyzonline.com/skin/default/core/css/about_left1.gif) no-repeat; padding-left:10px;color:#DC591C; font-size:14px; font-weight:bold}
+.left_a2{background:url(http://www.asyzonline.com/skin/default/core/css/about_left2.gif) no-repeat left 10px; padding-left:10px;color:#666666; font-size:12px; line-height:25px;}
+
+/**单位介绍左**/
+.bto li{ width:194px; height:29px; margin:10px auto; background:url(http://www.asyzonline.com/skin/default/core/css/bto_bg.gif) no-repeat; line-height:150%}
+.bto li a{background:url(http://www.asyzonline.com/skin/default/core/css/bto.gif) no-repeat; padding-left:30px; margin:7px 0 0 30px; height:18px; display:inline-block; text-decoration:none}
+.bto li a.bto2{ background-position: left -30px}
+.bto li a.bto3{ background-position: left -57px}
+.bto li a.bto4{ background-position: left -85px}
+
+/**右边块***/
+.ld_title{background:#F5F5F5;height:30px;line-height:30px;}
+.ld_title .title_l{float:left;width:120px;overflow:hidden;}
+.ld_title .title_r{float:right;margin-right:15px;overflow:hidden;width:400px;}
+.ld_title .title_r ul{margin-top:5px;}
+.ld_title .title_r li{float:left;width:70px;margin-left:20px;padding-left:30px;overflow:hidden;line-height:22px;background:url(http://www.asyzonline.com/skin/default/core/css/tli.jpg) no-repeat;display:block;}
+.form_title{margin-bottom:10px;padding:0 10px;border:1px solid #D8D8D8;background:#f1f1f1;line-height:28px;overflow:hidden;}
+.form_title  input{border:0 none;padding:0;margin:0;}
+.form_title .f_l{float:left;margin: 5px  0 0 10px;}
+.form_title .f_r{float:right;margin:10px 0 10px 0;}
+.form_title .keyword{float:left; border: 1px solid #CCCCCC; height:18px;line-height:18px;overflow: visible;vertical-align: middle;}
+.form_title .submitbtn {background: url(http://www.asyzonline.com/skin/default/core/css/gbg.png) repeat-x scroll 0 0 transparent;border: 1px solid #CCCCCC;border-left:none;font-size: 12px;height: 20px;line-height:20px;overflow: visible;vertical-align: middle;width: 60px;float:left;}
+.show_box_c3{background:#F2F2F2;height:64px;overflow:hidden;padding-left:10px;padding-top:18px;}
+.show_box_c3 li{float:left;width:230px;margin-right:10px;overflow:hidden;display:block;}
+.form_content{padding:8px 10px;min-height:60px;margin-bottom:10px;border:1px solid #D8D8D8;}
+.show_box_2{ margin-bottom:10px}
+.show_box_2 .sb2_head{ background:#ffffff url(http://www.asyzonline.com/skin/default/core/css/box1bg.gif) repeat-x left -72px; height:30px; border:1px solid #E2E2E2; border-bottom-width:0; padding-top:5px; font-weight:bold;text-align:left}
+.show_box_2 .sb2_head  a{ color:#323232; display:block;}
+.show_box_2 .sb2_head .title{ float:left; font-weight:bold;}
+.show_box_2 .sb2_head .more{ float:right; padding-right:20px;}
+.show_box_2 .sb2_main{ border:1px solid #E2E2E2; border-top-width:0; padding:15px; background:#ffffff;line-height:200%}
+.show_box_2 .sb2_head .title2{ background:url(http://www.asyzonline.com/skin/default/core/css/box1bg.gif) no-repeat left -170px; padding-left:40px; float:left; font-weight:bold; background:#ffffff}
+.show_box_gov{border:1px solid #D8D8D8; }
+.show_box_gov .sb2_head{ background:#ffffff url(http://www.asyzonline.com/skin/default/core/css/box1bg.gif) repeat-x left -72px; height:30px; border:1px solid #E2E2E2; border-bottom-width:0; padding-top:5px; font-weight:bold;text-align:left}
+.show_box_gov .sb2_head  a{ color:#323232; display:block;}
+.show_box_gov .sb2_head .title{ float:left; font-weight:bold;}
+.show_box_gov .sb2_head .more{ float:right; padding-right:20px;}
+.show_box_gov .sb2_main{ border:1px solid #E2E2E2; border-top-width:0; padding:15px; background:#ffffff;line-height:200%}
+.show_box_gov .sb2_head .title2{ background:url(http://www.asyzonline.com/skin/default/core/css/box1bg.gif) no-repeat left -170px; padding-left:40px; float:left; font-weight:bold; background:#ffffff}
+/*aboutus begin*/
+.about_top{border-bottom:1px solid #E2E2E2;margin-bottom:10px;height:190px;overflow:hidden;}
+.imagestop_l{text-align:center;float:left;overflow:hidden;width:180px;height:180px;display:block;margin-top:10px;}
+.txttop_r{float:right;width:520px;overflow:hidden;display:block;}
+.images_l{text-align:center;float:left;overflow:hidden;width:120px;height:165px;display:block;margin-top:15px;}
+.txttop_content{line-height:25px;font-size:12px;color:#545454;text-indent:2em;}
+.txt_r{float:left;width:220px;overflow:hidden;display:block;}
+.name{color:#C60900;font-size:14px;height:32px;line-height:32px;padding-left:10px;}
+.alise{height:28px;background:#E1EBE2;line-height:28px;padding-left:5px;display:block;}
+.txt_content{line-height:20px;font-size:12px;color:#0E338B;text-indent:2em;}
+.each_one{float:left;overflow:hidden;width:340px;height:180px;margin-right:10px;margin-bottom:16px;display:block;}
+/*aboutus end*/
+#yiping{background:url(http://www.asyzonline.com/skin/default/core/css/ying.png) no-repeat; display:block; width:120px; height:30px;}
+#tuijian{background:url(http://www.asyzonline.com/skin/default/core/css/comm.png) no-repeat; display:block; width:120px; height:30px;}
+.ad_box{ border:1px solid #eeeeee; display:block; min-height:30px}
+
+.tomember{ background:url(http://www.asyzonline.com/skin/default/core/css/postquest.gif) no-repeat;width:181px; height:49px; display:block; clear:both}
+/**标题图标***/
+.title_jian{ background:url(http://www.asyzonline.com/skin/default/core/css/box1bg.gif) no-repeat left -180px; padding-left:30px; font-weight:normal}
+.title_icon_5{background:url(http://www.asyzonline.com/skin/default/core/css/icon.gif) no-repeat left -129px; padding-left:15px;}
+.title_icon_4{background:url(http://www.asyzonline.com/skin/default/core/css/box1bg.gif) no-repeat left -178px; padding-left:40px;}
+.title_icon_3{background:url(http://www.asyzonline.com/skin/default/core/css/box1bg.gif) no-repeat left -145px; padding-left:40px;}
+.title_icon_2{background:url(http://www.asyzonline.com/skin/default/core/css/box1bg.gif) no-repeat left -38px; padding-left:40px;}
+.title_icon_1{background:url(http://www.asyzonline.com/skin/default/core/css/box1bg.gif) no-repeat left -5px; height:20px; padding-left:40px;}
+
+/**领导信箱***/
+
+.letter_list_table td,.letter_list_table th{text-align:center;line-height:30px;font-size:12px;}
+.letter_list_table th{background-color:#208c2c;font-size:14px;color:#fff;font-weight:normal;}
+.letter_list_table td{border-left:1px solid #F5DBBE}
+.letter_list_table .trc_1 td{background-color:#F1F1F1}
+.letter_list_table td.no_right {border:none}
+.letter_list_table td.ltitle{text-align:left}
+.letter_list_table td.ltitle a{background:url(http://www.asyzonline.com/skin/default/core/css/letter.jpg) no-repeat 10px 2px;padding-left:30px;}
+.letter_list_table .status_0{background-color:#F27D03;color:#ffffff;padding:3px}
+.letter_list_table .status_1{background-color:#F27D03;color:#ffffff;padding:3px}
+.letter_list_table .status_2{background-color:#F27D03;color:#ffffff;padding:3px}
+.letter_list_table .status_3{background-color:#0F96E5;color:#ffffff;padding:3px}
+
+.quicknav {background:url(../image/right_head.png) no-repeat #efefef;min-height:129px;border:1px solid #ddc79b;overflow:hidden;display:block;}
+.quicknav .fl{float:left;width:220px;overflow:hidden;}
+.quicknav .fr{float:right;width:510px;overflow:hidden;}
+.quicknav dl.up{height:40px;margin:10px 0 10px 10px;}
+.quicknav dl.dw{height:56px;padding:0 0 0 10px;}
+.quicknav dl.up dd{float:left;margin-right:10px;}
+.quicknav dl.dw dd{float:left;margin-right:5px;}
+
+.lenotice .hd{height:41px;line-height:41px;background:#f1f1f1;border-bottom:1px #ccc solid;}
+.lenotice .hd h3{float:left;background:#208c2c;padding:0 20px;font-weight:normal;}
+.lenotice .hd h3 a{color:#fff;display:block;text-decoration:none;}
+.lenotice .bd{padding:5px 0 0;}
+/**信件进度页***/
+.show_box_grey {background:#f1f3ec;width:100%;height:auto;min-height:500px;padding:30px;}
+.show_box_grey .conbox{background:#fff;width:668px;height:auto;border:#d4e9f5 1px solid;padding:2px;}
+.show_box_grey .conbox .innerbox{background:url(http://www.asyzonline.com/skin/default/core/css/email2boxbg.gif) no-repeat left top #d4e9f5;height:auto;min-height:200px;padding:48px 0 0 95px}
+.conbox select,.conbox input{height:21px;border:#7f9db9 1px solid;margin-right:10px;}
+.conbox .tt{margin-top:40px;border-bottom:#eee 1px solid;margin-bottom:10px;}
+/**信件详细页***/
+.boxouter {width:900px;height:auto;margin:50px auto;overflow:hidden;border:#000 1px solid;padding:50px 30px;background-color:#ffffff}
+.boxouter h1{font-size:30px}
+.table_hd{width:100%;height:24px;line-height:24px;margin:66px 0 10px;}
+.table_hd .fl{margin-right:200px;}
+.table_hd .b{font-size:14px;font-weight:bold;}
+.table_hd .b span{font-size:12px;font-weight:normal;color:red;}
+.table_hd .m a{font-size:14px;color:blue;}
+.rlink {background:#660000;width:100px;height:26px;line-height:26px;color:#fff;font-weight:bold;padding:2px 5px;margin:30px 0 10px;font-size:18px}
+.botline{background:#dfd5c1;width:100%;height:28px;line-height:28px;text-align:center;margin:10px 0;color:red;}
+.botline span{color:#000;}
+.postbtn {width:100%;text-align:right;margin:30px 15px 0 0;}
+.postbtn input {margin-right:15px;}
+.mailtb td{height:28px;line-height:28px;border:#000 1px solid;}
+.mailtb .grey{background:#e6e6e6}
+.mailtb .b{font-size:14px;font-weight:bold}
+.mailtb .red{font-size:14px;font-weight:normal;color:#cc0000;padding-left:5px;}
+.mailtb .center{text-align:center;}
+.mailtb td.fonty{color:#632203;padding:10px 5px;text-indent:2em; height:48px; vertical-align:top;}
+
+/**信件投递页***/
+.show_box_govs.email4 .form_title .f_l {background:url(http://www.asyzonline.com/skin/default/core/css/email4_ttbg.gif) no-repeat;color:#b7170f;height:24px;line-height:24px;padding-left:30px;margin:0;font-size:14px;}
+.show_box_govs.email4 table {margin-top:20px;}
+.show_box_govs.email4 table td{height:35px;line-height:35px;border:#e6e6e6 1px solid;}
+.show_box_govs.email4 table td.grey{background:#f7f7f7;text-align:right;padding-right:5px;}
+.show_box_govs.email4 table td.white{background:#fff;text-align:left;padding-left:5px;}
+.show_box_govs.email4 .start{color:red}
+.show_box_govs.email4 table td.last{height:38px;text-align:center;}
+.show_box_govs.email4 table input{height:20px;border:#d9e6f2 1px solid}
+.show_box_govs.email4 table td.last input{background:url(http://www.asyzonline.com/skin/default/core/css/email4btn.gif) no-repeat; width:73px;height:24px;color:#fff;font-weight:bold} 
+.show_box_govs.email4 table tr.tt {background:url(http://www.asyzonline.com/skin/default/core/css/email4tt_bg.gif) repeat-x;height:28px;line-height:28px;}
+.show_box_govs.email4 table tr.tt td{height:28px;line-height:28px;padding-left:5px;}
+
+.fl{float:left}
+.fr{float:right}
+.messages {background:url(http://www.asyzonline.com/skin/default/core/css/email4_2bg.gif) no-repeat;width:522px;height:271px;margin:50px auto;overflow:hidden;}
+.inner_box{margin:48px 130px 0 38px;}
+.inner_box h3{background:url(http://www.asyzonline.com/skin/default/core/css/email4_2_tt.gif) no-repeat;border-bottom:#000 1px solid;padding-left:20px;color:#b7170f;font-size:14px;font-weight:bold;}
+.inner_box .txt{font-size:12px;font-weight:normal;line-height:14px;margin:15px;}
+.inner_box .goback{font-size:12px;font-weight:normal;text-align:right;}
+
+.box_outer {background:#fff;width:718px;height:auto;margin:50px auto;border:#fddf8d 1px solid;overflow:hidden;}
+.bar1 {background:url(http://www.asyzonline.com/skin/default/core/css/email4_2_bar1.gif) repeat-x;height:29px;font-size:12px;font-weight:normal}
+.bar1 .tt1{background:url(http://www.asyzonline.com/skin/default/core/css/email4_ttbg.gif) no-repeat;height:29px;line-height:29px;color:#b7170f;font-size:14px;font-weight:bold;margin-left:10px;padding-left:25px;float:left;}
+.bar1 .more a{color:#000;}
+.bar1 .more {background:url(http://www.asyzonline.com/skin/default/core/css/nav2.gif) no-repeat;padding: 0 10px 0 20px;margin-top:6px;float:right;}
+.bar2 {background:#f7f7f7;border:#d6dee7 1px solid;height:28px;margin:15px 0 10px;}
+.bar2 .tt2{margin-left:30px;height:28px;line-height:28px;font-size:14px;font-weight:bold;}
+.box_outer table{border:#98c4eb 2px solid;margin:0 auto;}
+.box_outer td{height:28px;line-height:28px;border:#98c4eb 1px solid;font-size:12px;font-weight:normal;padding:0 5px;}
+
+.lettertb td{border-bottom:1px dotted #333;}
+.bg_grey {background: #F5F5F5;}
+
+.head_gov {background: url("http://www.asyzonline.com/skin/default/core/css/headbg_grey.gif") repeat-x scroll left top transparent;border-bottom: 1px solid #E2E2E2;height:30px;line-height:30px;}
+.main1 {background-color: #FFFFFF;height: 100%;line-height: 200%;padding: 10px;}

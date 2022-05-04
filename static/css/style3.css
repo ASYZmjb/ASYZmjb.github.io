@@ -1,0 +1,28 @@
+/*search*/
+.search_outbox{margin:20px 0;overflow:hidden}
+.search_left {float: left;height: auto;overflow: hidden;width:248px;padding-bottom:50px;border:1px solid #cccccc;background:#f7f7f7;}
+.searchyear{font-size:16px;color:#454545;text-align:center;font-weight:bold;line-height:36px;margin:12px 0;}
+.search_right {float: right;height: auto;overflow: hidden;width:925px;}
+.searchhead{height:48px;background:#f7f7f7;}
+.searchhead ul li{float:left;width:185px;height:48px;line-height:48px;text-align:center;}
+.searchhead ul li a{display:block;color:#5f5f5f;text-decoration:none;}
+.searchbox .forminput{color:#333;margin:15px 0;}
+.formsub{margin:15px 0;}
+.search_bottom{width:68px;height:22px;line-height:22px;font-size:14px;color:#983a07;border:1px solid #facd89;background:#facd89;text-align:center;font-family:"微软雅黑";}
+.search_input{width:38%;padding-left:5px;height:24px;line-height:24px;}
+.search_checkbox{margin-left:20px;}
+.search_content{padding:10px 5px;}
+.search_info {margin:auto 0;padding:5px;font-size: 14px;min-height: 26px;padding-top: 3px;overflow:hidden;}
+li.search_result{margin-bottom: 14px; margin-top: 0;color: #0a3f76;}
+li.search_result .title a{font-size:14px;}
+li.search_result .title a:link{color: #0a3f76;cursor: pointer;}
+li.search_result .title a:visited {color: #551A8B;}  
+li.search_result .item_summary{font-size:12px;color:#585959;padding:5px 0;line-height:20px;}
+li.search_result .suctime a{color:#689dd5;font-size:12px;font-style: normal;}
+li.search_result .suctime .label_category,li.search_result .suctime .label_category a{color:#0a3f76;}
+dl.opt dt, dl.opt dd {line-height:20px;}
+dl.opt {font-size: 14px;margin-bottom: 20px;margin-left:60px;margin-right:10px;}
+dl.opt a{color: #5c5c5c;text-decoration: none;}
+.dd-selected{color:#ff9a00;background-color: #f7f7f7;border-left: 3px solid #46a3ff; padding-left: 10px; margin-bottom:14px; }
+.dd-no-selected{padding-left: 10px;color:#454545;margin-bottom:14px;}
+.dd-no-selected:hover{background-color: #f7f7f7;border-left: 3px solid #46a3ff;}

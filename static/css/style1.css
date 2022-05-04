@@ -1,0 +1,35 @@
+/*php168 photo*/
+.vd_990{width:990px; margin:auto}
+.gov_frame {border: medium none; clear: both;margin: 0 auto;overflow: hidden;text-align: left;width: 990px;}
+/*列表页*/
+.big_head{padding:8px; background:#ffffff;border:1px solid #cccccc;margin-bottom:10px}
+.xve{width:320px;float:left;overflow:hidden;min-height:150px}
+.fds{width:320px;float:right;overflow:hidden;min-height:150px}
+/**内容页**/
+.vd_border{border:1px solid #cccccc}
+.video_wrap{margin-bottom:5px}
+.video_wrap .left_box{width:700px; float:left; background:#ffffff; overflow:hidden}
+.video_wrap .right_box{width:430px;  float:right;background:#ffffff;overflow:hidden}
+.video_wrap .left_box .screen{height:486px}
+.video_wrap .left_box .vd_title{margin:8px; background:#ECECEC;padding:3px;font-weight:bold}
+.video_wrap .left_box .vd_summary{margin:3px 0; line-height:150%; overflow:hidden;color:#333; font-size:12px}
+.video_wrap .left_box .vd_summary .abs{position:absolute; width:574px;background-color:#ffffff;padding:0 8px 10px;border:1px solid #cccccc;border-width:0 2px 3px 0}
+.video_wrap .left_box .vd_summary .nomal{position:static;padding:0 8px}
+
+.video_wrap .left_box .vd_date_time{margin:8px; line-height:150%; color:#333; font-size:12px; border-top:1px dashed #cecece}
+.video_wrap .right_box .rtop-adb{margin:3px;_height:71px; min-height:71px;}
+.video_wrap .right_box .rtop-adc{margin:5px; font-weight:bold;}
+.video_wrap .right_box .vd_list{margin:2px;border-top:1px solid #cccccc; padding:6px;}
+.video_wrap .right_box .vd_slist{ font-size:14px; height:70px; color:#666; border-bottom:1px solid #eeeeee; padding:10px 5px;}
+.video_wrap .right_box .vd_slist a,.video_wrap .right_box .vd_slist a:link,.video_wrap .right_box .vd_slist a:hover,.video_wrap .right_box .vd_slist a:visited{color:#000000; text-decoration:none}
+.video_wrap .right_box .vd_slist2{background:#eeeeee}
+.video_wrap .right_box .vd_slist img{ width:100px; height:70px; float:left; margin-right:10px}
+.video_wrap .right_box .vd_slist .sl_title{ line-height:180%}
+.video_wrap .right_box .vd_slist .sl_time{font-size:12px}
+
+#comment_box{padding:4px}
+#layout_comment_box{padding:10px;border:1px solid #cccccc;}
+#comment_box .commont_box_title{background:#ECECEC url(../image/vd_21.gif) no-repeat left top; height:26px; padding:3px 0 3px 10px;}
+#comment_box .commont_box_title .right{width:4px; height:32px;float:right; background:url(../image/vd_21.gif) no-repeat left bottom; margin-top:-3px}
+#layout_comment_box .comment_body{width:520px;}
+.comment_body{font-size:12px}

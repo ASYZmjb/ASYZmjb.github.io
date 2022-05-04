@@ -1,0 +1,80 @@
+* { word-break:break-all; }
+body { color:#000; font-size:14px; font-family: "Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";text-align:left; line-height:150%;}
+html, body, div, ul, li, dl, dt, dd, form, input, select, h1, h2, h3, h4, h5, p { margin:0px; padding:0px; }
+ul, li { list-style:none; }
+img { border:0px; margin:0px; padding:0px; vertical-align: middle;}
+input, select { font-size:12px; }
+a:link, a:visited { color:#454545; text-decoration:none; }
+a:hover { color:#ff0000; text-decoration:underline; }
+.clear { clear:both; height:1px; margin-top:-1px; overflow:hidden;font-size:0;line-height:1px }
+.pointer { cursor:pointer; }
+.wrap,.container{ width:1200px;margin:0 auto;}
+.layout_wrap { width:958px; overflow-x:hidden; }
+.label { position: absolute; top: 0px; left: 0px; border: 1px solid #ff0000; z-index: 9999; background-color: #0000ff;color:#000; text-align:left;text-size:12px;text-weight:normal}
+.label span{display:none}
+.label div { position: absolute; width: 15px; height: 15px; background-color: #000000; right: 0px; bottom: 0px; clear: both;cursor:se-resize ;font-size:1px;line-height:0%}
+.row:after {clear: both;}
+.row:after, .row:before {display: table;content: " ";}
+/*相关通用*/
+label.error { color:#ff0000; margin:0 5px; padding-left:15px; background:url(http://www.asyzonline.com/skin/school774/core/header/error.gif) left no-repeat; }
+
+.ajaxing { position: absolute; height: 36px; background:#EFEFEF url(http://www.asyzonline.com/skin/school774/core/header/wait-big.gif) no-repeat; padding-left: 32px;border: 1px solid #AAAAAA; }
+.content_box{ min-height:40px;height:auto!important; height:40px}
+.fleft,.fl{ float:left; }
+.fright,.fr { float:right; }
+.inline-block { display:inline-block; }
+.text-center{text-align:center;}
+.common_mtop,.mtop { margin-top:10px; }
+.mt12{margin-top:12px;}
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.ml16{margin-left:16px;}
+.ml18{margin-left:18px;}
+.common_mright,.mright { margin-right:10px; }
+.common_mbottom,.mbottom { margin-bottom:10px; }
+.h10{height:10px;clear:both}
+.common_border { border:1px solid #d8d8d8; }
+.common_input_border { border:1px solid #D8D8D8; }
+.common_bg_color { background:#f9f9f9; }
+.overflow{overflow:hidden;}
+.blue_border { border:1px solid #B6C7DB; }
+.layout_mtop { margin-top:5px; }
+.layout_mright { margin-right:5px; }
+.layout_mbottom { margin-bottom:5px; }
+.layout_padding { padding:8px; }
+.layout_txtcontent_border { border:1px solid #D0D0D0; }
+/*******弹出框*********/
+.php168_dialog { position: absolute; border: 5px solid #8CB8EA; background-color: #ffffff; width: 400px; height: 200px; }
+.php168_dialog .title_bar { padding: 5px; background-color: #f1f7fd; cursor: move; }
+.php168_dialog .title { }
+.php168_dialog .close { float: right; cursor: pointer; }
+.php168_dialog .content_container { width: 100%; }
+.php168_dialog .content { padding: 5px; }
+.php168_dialog .button_bar { clear: left; }
+.php168_dialog .button_bar .ok,.php168_dialog .button_bar .cancel{background:url(http://www.asyzonline.com/skin/school774/core/header/button4.gif) repeat-x; color:#3A7494; border:1px solid #CEDEEF; padding:2px 10px 2px; margin-left:10px; margin-bottom:2px;  cursor:pointer}
+.loginbox{ padding:10px; line-height:180%; text-align:center}
+
+.message_dialog { position: absolute; border: 1px solid #A0A0A0; background-color: #F9F7F7; width: 400px; height: 200px;padding:1px ; line-height:22px}
+.message_dialog .title_bar { padding: 5px; background: #f1f7fd url(http://www.asyzonline.com/skin/school774/core/header/topbar.gif) repeat-x; cursor: move;color:#FFF ; font-size:14px; font-weight:bold}
+.message_dialog .title_bar .close{width:10px;background:url(http://www.asyzonline.com/skin/school774/core/header/closed.gif) no-repeat}
+.message_dialog .title_bar .close:after{content:url(http://www.asyzonline.com/skin/school774/core/header/closed.gif)}
+.message_dialog .title_bar .close span{display:none}
+.message_dialog .title { }
+.message_dialog .close { float: right; cursor: pointer; }
+.message_dialog .content_container { width: 100%; }
+.message_dialog .content { padding: 5px; }
+.message_dialog .content div{ border-bottom:1px solid #dadada; padding:5px 0;}
+.message_dialog .button_bar { clear: left; }
+.message_dialog .button_bar .ok,.message_dialog .button_bar .cancel{background-color:#3371B2; color:#ffffff; border:1px solid #CEDEEF; padding:2px 10px 2px; margin-left:10px; margin-bottom:2px;  cursor:pointer}
+.message_dialog .content .showInputBox{width:85px;height:23px;border:none;background:url(http://www.asyzonline.com/skin/school774/core/header/messagebutton.png) no-repeat}
+#mobileInputBox, #emailInputBox{display:none}
+
+.clearfix:after {clear: both;content: "."; display: block;height: 0;overflow: hidden;visibility: hidden;}
+#page {text-align: center;padding:10px 12px 6px; clear:both;}
+#page .s1{width:52px; text-align:center;}
+#page .s2{background:#1f3a87; border:1px solid #dcdddd; color:#fff; font-weight:bold; text-align:center;}
+#page a.s2:visited {color:#fff;}
+#page a{padding:2px 5px 2px; color:#1E50A2;background:#fff; border:1px solid #dcdddd; text-align:center;}
+#page a:visited{color:#1f3a87;} 
+#page a:hover{color:#fff; background:#1E50A2; border:1px solid #1E50A2;}
+#page .s3{cursor:default;padding:2px 5px 2px;;margin:5px 4px 0 0; color:#ccc;background:#fff; border:1px solid #ccc; text-align:center;}

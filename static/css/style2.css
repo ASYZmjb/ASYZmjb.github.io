@@ -1,0 +1,172 @@
+/***独立页样式***/
+/**常用**/
+/*列表导航*/
+.formsborder{border:1px solid #dddddd;padding:10px;overflow:hidden;zoom:1}
+.breadwte{padding:10px 0;}
+.breadnav{padding:10px 0;background:#f8f8f8;margin-bottom:20px;}
+.position{background: url(../image/nav.png) no-repeat left 3px;padding-left:20px;}
+.position a{color: #3e3a39;}
+
+.position2 {color: #3e3a39;padding:15px 0 15px 20px;border-bottom: 1px solid #ccc;margin: 0 0 20px 0; background: url(http://www.asyzonline.com/skin/default/core/css/images/nav.png) no-repeat left 19px;}
+.position2 a:last-child{color: #990000;}
+.position2 a{color: #3e3a39;}
+
+.position3 {color: #3e3a39;padding:10px 20px;background: url(../image/nav.png) no-repeat left center;}
+.position3 a{color: #3e3a39;}
+
+.position4 {color: #3e3a39;padding:10px 20px;background: url(../image/nav.gif) no-repeat left center;}
+.position4 a{color: #3e3a39;}
+/*列表banner*/
+.breadbanner{background:#ececec;margin-bottom:20px;}
+.fluid{position:relative;}
+.bigbanner img{width: 100%;height:auto;}
+.banner_title{z-index:3;position: absolute;height: 55px;overflow:hidden;background: url(http://www.asyzonline.com/skin/default/core/images/toptitle.png) no-repeat;left:2%;width:200px;top:40%;float: left;display: table;}
+.banner_title h2{color: #fff;font-size:24px;padding:10px 20px;font-weight:normal;text-align:center;margin:0;}
+.delmag{margin-bottom:0px;}
+.delbor{border-bottom:none;}
+.container-fluid{padding:0;}
+
+/*列表样式*/
+.maincon{padding-bottom:30px;overflow:hidden;}
+.letfl{width:840px;}
+.letfr{width:320px;}
+.contain-left,.edu-right{width:270px;}
+.contain-right,.edu-left{width:860px;}
+.edu-left2{width:760px;}
+.edu-right2{width:270px;}
+.sidebox{width:270px;}
+.contentbox{width:860px;}
+
+.border1{overflow:hidden;zoom:1}
+.border1 .head1{padding:23px 0 22px 0;background-image:url(../image/head_bg_blue.png);text-align:center;}
+.border1 .head1 span{color: #fff;font-size: 18px;display: block;}
+.border1 .head2{background:#2373ce; height:68px;line-height:68px;font-size:18px;;color:#fff;}
+.border1 .head2 .title2{padding-left:80px;background:url(http://www.asyzonline.com/skin/default/core/images/sb1_head_tit.png) 40px 50% no-repeat;font-size:20px;display: block;}
+
+.border1 .main1{background: #fff url(../image/head_bg2.png) no-repeat 198px -80px;padding:0;border-left:1px solid #e2e2e2;border-right:1px solid #e2e2e2;}
+.border1 .main2{background: #fff;padding:0;border-left:1px solid #e2e2e2;border-right:1px solid #e2e2e2;}
+.border1 .menu_list_1 li{line-height:50px;text-align:center;color:#4c4c4c;border-bottom:#e2e2e2 1px solid;-o-transition:all ease 0.5s;transition:all ease 0.5s;}
+.border1 .menu_list_1 li:hover{-webkit-box-shadow:0 5px 12px 0 rgba(124,124,124,0.3);-moz-box-shadow:0 5px 12px 0 rgba(124,124,124,0.3);box-shadow:0 5px 12px 0 rgba(124,124,124,0.3);-webkit-transform:translateY(-2px);-ms-transform:translateY(-2px);-o-transform:translateY(-2px);transform:translateY(-2px);}
+.border1 ul li.last{border-bottom:none;}
+.border1 .menu_list_1 li a{display:block;color:#4c4c4c;font-size:16px;}
+.border1 .menu_list_1 li a:hover,.border1 .menu_list_1 li.cur{text-decoration:none;color:#175aa1;background:url(../image/cur_blue.png) center bottom no-repeat;}
+.border1 .menu_list_1 li.cur a{color:#175aa1;}
+
+.border1 .main_ultop h3{margin:0;}
+.border1 .main_ultop h3,.border1 .main_ultop li{line-height:50px;text-align:center;color:#4c4c4c;border-bottom:#e2e2e2 1px solid;-o-transition:all ease 0.5s;transition:all ease 0.5s;}
+.border1 .main_ultop h3:hover,.border1 .main_ultop li:hover{-webkit-box-shadow:0 5px 12px 0 rgba(124,124,124,0.3);-moz-box-shadow:0 5px 12px 0 rgba(124,124,124,0.3);box-shadow:0 5px 12px 0 rgba(124,124,124,0.3);-webkit-transform:translateY(-2px);-ms-transform:translateY(-2px);-o-transform:translateY(-2px);transform:translateY(-2px);}
+.border1 ul li.last{border-bottom:none;}
+.border1 .main_ultop h3 a{color:#175aa1;font-size:16px;}
+.border1 .main_ultop li a{display:block;color:#4c4c4c;font-size:15px;}
+.border1 .main_ultop li a:hover,.border1 .main_ultop li.cur{text-decoration:none;color:#175aa1;background:url(../image/cur_blue.png) center bottom no-repeat;}
+.border1 .main_ultop li.cur a{color:#175aa1;}
+
+.border1 .main_ultop2 h3{margin:0;font-weight:normal;}
+.border1 .main_ultop2 h3,.border1 .main_ultop2 li{line-height:50px;text-align:center;color:#4c4c4c;border-bottom:#e2e2e2 1px solid;-o-transition:all ease 0.5s;transition:all ease 0.5s;}
+.border1 .main_ultop2 h3:hover,.border1 .main_ultop2 li:hover{-webkit-box-shadow:0 5px 12px 0 rgba(124,124,124,0.3);-moz-box-shadow:0 5px 12px 0 rgba(124,124,124,0.3);box-shadow:0 5px 12px 0 rgba(124,124,124,0.3);-webkit-transform:translateY(-2px);-ms-transform:translateY(-2px);-o-transform:translateY(-2px);transform:translateY(-2px);}
+.border1 ul li.last{border-bottom:none;}
+.border1 .main_ultop2 h3 a{color:#175aa1;font-size:16px;}
+.border1 .main_ultop2 li a{display:block;color:#4c4c4c;font-size:14px;}
+.border1 .main_ultop2 li a:hover,.border1 .main_ultop2 h3.cur{text-decoration:none;color:#175aa1;background:url(../image/cur_blue.png) center bottom no-repeat;}
+.border1 .main_ultop2 h3.cur a{color:#175aa1;}
+
+.border1 .tabs li{width:268px;background:url(http://www.asyzonline.com/skin/default/core/images/tab.png) right center no-repeat;height:49px;line-height:49px;border-bottom:#e8e8e8 1px solid;}
+.border1  li.thistab{width:268px;background:url(http://www.asyzonline.com/skin/default/core/images/tab_hover.png) right center no-repeat;}
+.border1 .tabs li a:hover{color:#ef7a08;background:url(http://www.asyzonline.com/skin/default/core/images/tab_hover.png) right center no-repeat;}
+.border1 .tabs li a{padding-left:40px;color:#333;display: block;height:50px;line-height:50px;text-decoration:none;}
+.border1  li.thistab a{color:#ef7a08;}
+
+.border2{border: 1px solid #C0CADA;overflow:hidden;zoom:1}
+.border3{border:1px solid #dddddd;overflow:hidden;zoom:1}
+
+.gov-head{height:41px;border-bottom:2px solid #175aa1;}
+.gov-head .bigtitle{font-size:20px;border-bottom: 1px solid #175aa1;display: inline-block;padding:10px 10px 9px 10px;color:#175aa1;}
+.gov-head  a{color:#000;}
+.gov-head .more{padding:10px}
+.gov-main{margin:15px 0;}
+.gov-main .row{overflow:hidden;}
+
+.gov-head2{height:41px;border-bottom:2px solid #175aa1;background:#f2f2f2;}
+.gov-head2 .bigtitle{font-size:20px;border-bottom: 1px solid #175aa1;display: inline-block;padding:10px 10px 9px 10px;color:#175aa1;}
+.gov-head2  a{color:#000;}
+.gov-head2 .more{padding:10px}
+
+.gov-head3{height:41px;border-bottom:1px solid #d3d3d3;}
+.gov-head3 .bigtitle{font-size:24px;color:#175aa1;display: inline-block;padding:8px 10px 9px 10px;color:#175aa1;}
+.gov-head3  a{color:#000;}
+.gov-head3 .more{padding:10px}
+
+.gov-head4{height:40px;border-bottom:2px solid #0071cf;background:#ededed;}
+.gov-head4 .bigtitle{font-size:18px;display: inline-block;padding:10px 18px 8px 50px;background:url(http://www.asyzonline.com/skin/default/core/images/title2.png) 18px center no-repeat;color:#175aa1;border-bottom:1px solid #0071cf;}
+.gov-head4  a{color:#0071cf;}
+.gov-head4 .more{padding:10px;font-size:12px;}
+.gov-head4 .more a{color:#494949;}
+.gov-main4 {padding:12px;}
+
+.mbottom{margin-bottom:10px;}
+.add-inner {   border: 1px solid #EBEBEB;   margin: 0; }
+.channel_item {width:100%;height:auto;overflow:hidden;} 
+.channel_item_title{float:left;width:150px;height:100%;text-align:right;vertical-align: middle;padding:8px;}
+.channel_item_input{float:left;height:auto;text-align:left;vertical-align: middle;padding:5px;}
+.channel_item_tip {float: left;height: auto;text-align: left;vertical-align: middle;padding: 5px;color: #666666;padding-left: 8px;}
+.collapsetable { border-collapse:collapse; }
+.collapsetable td { border:1px solid #dedede; padding:3px }
+.columntable td { border-bottom:1px dashed #dedede; text-align:center;font-size:12px;line-height:30px }
+.pop_table tr{height:32px;line-height:32px;}
+.pop_tr{background-color:#f6f7f8}
+.tdL{width:100%; text-align:right; padding-right:5px}
+.tdR{padding-left:5px}
+.description{color:#666;}
+.forms_border{border:2px solid #E6E6E6;margin-top:5px;}
+.forms_div{border:2px solid #E6E6E6}
+.forms_head{background-color:#E6E6E6;height:30px;margin:1px;line-height:30px; padding-left:20px; font-size:14px;color:#990000; font-weight:bold}
+.forms_main{margin:10px;}
+.part_name{background:url(http://www.asyzonline.com/skin/default/core/css/part.gif) no-repeat;padding-left:15px;}
+.icon_view{background:url(http://www.asyzonline.com/skin/default/core/css/icon_view.gif) no-repeat;padding:2px 0 2px 17px}
+.forms_btn{background:#00a2df;width:70px; height:23px; text-align:center;color:#fff;border:none;cursor:pointer}
+.search_btn{background:url(http://www.asyzonline.com/skin/default/core/css/search_btn.gif) no-repeat;width:71px; height:21px; border:none;cursor:pointer}
+.hover_tr td{background-color:#F5FAFA}
+.center_title{float:left;background:#9DACBF;margin:1px;width:742px;height:29px;line-height:29px;padding-left:5px;color:#ffffff;font-size:13px;font-weight:600;}
+.forms_print{width:650px;margin:30px auto 50px;}
+.forms_print_2{width:750px;margin:30px auto 50px;border:4px solid #9DACBF;background:#FFF;}
+.verify_show{line-height:25px;}
+.verify_show .v_1{width:100px;display:inline-block}
+.verify_show .v_2{width:200px;display:inline-block}
+.verify_show .v_c{display:inline-block}
+.forms_print td.tdL{text-align:right;background-color:#CAE3FF;width:20%}
+.forms_print td.tdR{text-align:left;width:80%}
+.forms_print_2 td.tdL{text-align:right;background-color:#CAE3FF;width:20%}
+.forms_print_2 td.tdR{text-align:left;width:80%}
+.print_table{ border-collapse:collapse; margin:5px 0 15px;}
+.print_table td{border:1px solid #999999;padding:5px}
+.search_option{margin:7px 0 0 10px; float:left;height:22px;overflow:hidden;}
+.tools{text-align:right;background:url(http://www.asyzonline.com/skin/default/core/css/toolsbg.gif) repeat-x;height:26px;line-height:26px;padding-right:10px; margin-bottom:30px;margin-top:50px}
+.txt, .txtar{font-size:12px}
+.headerbtn_list .txt{width:110px}
+.download{background:url(http://www.asyzonline.com/skin/default/core/css/csv.gif) no-repeat;padding-left:20px; height:20px; display:inline-block; line-height:20px}
+
+.MainTable .guide { margin-top:5px; border:1px #A7CAFA solid; height:20px; background:#F5FAFE url(http://www.asyzonline.com/skin/default/core/css/head2.gif); }
+.MainTable .guide td { padding:5px; }
+.dragTable { width:100%; margin-top:5px; overflow:hide; border:0px #9ACAD6 solid; }
+.dragTable .head { background:#ffffff url(http://www.asyzonline.com/skin/default/core/css/box1bg.gif) repeat-x left -72px; height:30px; border:1px solid #D0D0D0; border-bottom-width:0; padding-top:5px; font-weight:bold;text-align:left}
+.dragTable .head .L { background:url(http://www.asyzonline.com/skin/default/core/css/box1bg.gif) no-repeat left -178px; width:30px; height:30px; margin-left:0px; float:left; }
+.dragTable .TAG { float:left; color:#247384; font-weight:bold; padding:9px 5px 0 0px; height:21px; font-size:13px; }
+.dragTable .TAG a { color:#247384; font-size:13px; }
+.dragTable .morelink { float:left; padding-top:8px; padding-left:10px; }
+.dragTable .morelink a { margin-left:10px; text-decoration: underline; }
+.dragTable .more { float:right; padding-right:1em; padding-top:8px; }
+.dragTable .more a { color:#666; }
+.dragTable .middle { padding:6px 1px 4px 7px; height:50px; line-height:20px; border:1px solid #D0D0D0; border-top:0px solid #D0D0D0; }
+
+#yiping{background:url(http://www.asyzonline.com/skin/default/core/css/ying.png) no-repeat; display:block; width:120px; height:30px;}
+#tuijian{background:url(http://www.asyzonline.com/skin/default/core/css/comm.png) no-repeat; display:block; width:120px; height:30px;}
+.ad_box{ border:1px solid #eeeeee; display:block; min-height:30px}
+
+.tomember{ background:url(http://www.asyzonline.com/skin/default/core/css/postquest.gif) no-repeat;width:181px; height:49px; display:block; clear:both}
+/**标题图标***/
+.title_jian{ background:url(http://www.asyzonline.com/skin/default/core/css/box1bg.gif) no-repeat left -180px; padding-left:30px; font-weight:normal}
+.title_icon_5{background:url(http://www.asyzonline.com/skin/default/core/css/icon.gif) no-repeat left -129px; padding-left:15px;}
+.title_icon_4{background:url(http://www.asyzonline.com/skin/default/core/css/box1bg.gif) no-repeat left -178px; padding-left:40px;}
+.title_icon_3{background:url(http://www.asyzonline.com/skin/default/core/css/box1bg.gif) no-repeat left -145px; padding-left:40px;}
+.title_icon_2{background:url(http://www.asyzonline.com/skin/default/core/css/box1bg.gif) no-repeat left -38px; padding-left:40px;}
+.title_icon_1{background:url(http://www.asyzonline.com/skin/default/core/css/box1bg.gif) no-repeat left -5px; height:20px; padding-left:40px;}
